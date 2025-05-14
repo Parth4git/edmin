@@ -47,35 +47,35 @@ const Header = () => {
 
       {/* Bottom Section: Navigation Bar */}
       <nav className="bg-white px-4 md:px-8 py-2 ">
-        <ul className="flex flex-wrap gap-4 justify-center md:gap-8 text-sm md:text-base">
+        <ul className="flex flex-wrap gap-4 justify-center md:gap-8 text-sm md:text-xl font-semibold font-serif text-gray-800">
           <li>
-            <a href="#home" className="hover:text-blue-600">
+            <a href="#home" className="hover:text-cyan-600">
               Home
             </a>
           </li>
           <li>
-            <a href="#services" className="hover:text-blue-600">
+            <a href="#services" className="hover:text-cyan-600">
               About Us
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-blue-600">
+            <a href="#about" className="hover:text-cyan-600">
               Courses
             </a>
           </li>
           <li>
-            <a href="#projects" className="hover:text-blue-600">
+            <a href="#projects" className="hover:text-cyan-600">
               Gallery
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-blue-600">
+            <a href="#contact" className="hover:text-cyan-600">
               Legal
             </a>
           </li>
 
           <li>
-            <a href="#contact" className="hover:text-blue-600">
+            <a href="#contact" className="hover:text-cyan-600">
               Contact Us
             </a>
           </li>

@@ -29,9 +29,7 @@ const AboutUs = () => {
             Teacher Training Program. We conduct Tally's professional courses
             here. We have all the courses from Tally's Basic to Advanced here.
             We have done various types of government computer training programs.
-            We have trained thousands of students in the last 10 years. We have
-            a team of highly qualified and experienced trainers who are experts
-            in their respective fields.
+            We have trained thousands of students in the last 10 years.
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-700 list-none list-inside text-lg font-medium">
             <div className="flex items-center gap-1">
