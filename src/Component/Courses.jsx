@@ -4,7 +4,7 @@ import { coursesCard } from "../assets/dummydata";
 const Course = () => {
   return (
     <>
-      <section className="py-12 bg-fuchsia-700 px-4 md:px-12 lg:px-16">
+      <section className="py-12 bg-gray-700 px-4 md:px-12 lg:px-16">
         <h1 className="text-5xl font-bold text-gray-50 text-center mb-8">
           Explore Courses
         </h1>
