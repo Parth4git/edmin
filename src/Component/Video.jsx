@@ -3,9 +3,6 @@ export default function VideoSection() {
     "https://www.youtube.com/embed/RIUtD_F6P2Y",
     "https://www.youtube.com/embed/yE0RCW66Tv4",
     "https://www.youtube.com/embed/UTd8mL2itUo",
-    "https://www.youtube.com/embed/EnrSW7Y2m1k",
-    "https://www.youtube.com/embed/ZEWYpBQF154",
-    "https://www.youtube.com/embed/1Xa9U7RSCdo",
   ];
 
   return (

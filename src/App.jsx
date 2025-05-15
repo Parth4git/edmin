@@ -10,10 +10,13 @@ import Testimonial from "./Component/Testimonial";
 import ContactUs from "./Component/ContactUs";
 import AchieversSection from "./Component/Achiever";
 import VideoSection from "./Component/Video";
+import Counter from "./Component/Counter";
+import OfferPopup from "./Component/PopUp";
 
 function App() {
   return (
     <>
+      <OfferPopup />
       <Header />
       <Hero />
       <Info />
@@ -21,6 +24,7 @@ function App() {
       <ChooseUs />
       <Courses />
       <Gallery />
+      <Counter />
       <Testimonial />
       <AchieversSection />
       <VideoSection />
