@@ -87,7 +87,7 @@ const Footer = () => {
           </div>
 
           {/* Popular Courses */}
-          <div className="lg:pl-4">
+          <div className="lg:pl-1">
             <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700">
               Popular Courses
             </h3>
@@ -115,7 +115,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="lg:pl-4">
+          <div className="lg:pl-0">
             <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700">
               Contact Us
             </h3>
