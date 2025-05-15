@@ -4,7 +4,7 @@ import { coursesCard } from "../assets/dummydata";
 const Course = () => {
   return (
     <>
-      <section className="py-12 bg-gray-700 px-4 md:px-12 lg:px-16">
+      <section className="py-12 bg-gray-900 px-4 md:px-12 lg:px-16">
         <h1 className="text-5xl font-bold text-gray-50 text-center mb-8">
           Explore Courses
         </h1>
@@ -12,7 +12,7 @@ const Course = () => {
           {coursesCard.map((val, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-xl overflow-hidden p-4 flex flex-col justify-between hover:shadow-xl shadow-cyan-500 transition hover:scale-105"
+              className="bg-white shadow-md rounded-xl overflow-hidden p-4 flex flex-col justify-between hover:shadow-xl shadow-cyan-500 transition ease-in-out hover:scale-105"
             >
               <div className="flex flex-col gap-4 mb-4">
                 <div className="w-full h-32 flex-shrink-0">

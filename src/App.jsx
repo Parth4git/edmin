@@ -5,6 +5,9 @@ import Hero from "./Component/Hero";
 import Info from "./Component/Info";
 import Courses from "./Component/Courses";
 import Footer from "./Component/Footer";
+import Gallery from "./Component/Gallery";
+import Testimonial from "./Component/Testimonial";
+import ContactUs from "./Component/ContactUs";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <AboutUs />
       <ChooseUs />
       <Courses />
+      <Gallery />
+      <Testimonial />
+      <ContactUs />
       <Footer />
     </>
   );
