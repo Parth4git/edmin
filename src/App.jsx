@@ -16,7 +16,6 @@ import OfferPopup from "./Component/PopUp";
 function App() {
   return (
     <>
-      <OfferPopup />
       <Header />
       <Hero />
       <Info />
@@ -30,6 +29,7 @@ function App() {
       <VideoSection />
       {/* <ContactUs /> */}
       <Footer />
+      <OfferPopup />
     </>
   );
 }

@@ -42,7 +42,7 @@ const Course = () => {
           ))}
         </div>
         <div className="text-center mt-8">
-          <button className="px-6 py-3 bg-cyan-400 text-black font-medium rounded-lg hover:bg-cyan-500 hover:scale-105 transition-colors duration-300 border-1 border-gray-900 hover:border-cyan-500">
+          <button className="px-6 py-3 bg-cyan-400 text-black font-medium rounded-lg hover:bg-cyan-500 hover:scale-105 transition-colors duration-300 border-1 border-gray-900 hover:border-cyan-500 shadow-sm shadow-cyan-100">
             View All Courses
           </button>
         </div>
