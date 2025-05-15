@@ -8,6 +8,8 @@ import Footer from "./Component/Footer";
 import Gallery from "./Component/Gallery";
 import Testimonial from "./Component/Testimonial";
 import ContactUs from "./Component/ContactUs";
+import AchieversSection from "./Component/Achiever";
+import VideoSection from "./Component/Video";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       <Courses />
       <Gallery />
       <Testimonial />
-      <ContactUs />
+      <AchieversSection />
+      <VideoSection />
+      {/* <ContactUs /> */}
       <Footer />
     </>
   );

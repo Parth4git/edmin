@@ -15,14 +15,14 @@ const Footer = () => {
     <footer className="bg-gray-900 text-gray-200 pt-16 pb-8 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* About Section */}
-          <div className="space-y-6">
-            <div className="flex items-center">
+          <div className="md:mt-1 space-y-6">
+            <div className="flex items-center h-12">
               <img
                 src="/edumin_logo.png"
                 alt="Edumin Logo"
-                className="w-40 h-auto"
+                className="w-40 h-auto object-contain"
               />
             </div>
             <p className="text-gray-400 leading-relaxed text-sm">
@@ -60,8 +60,8 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700 inline-block">
+          <div className="lg:pl-18">
+            <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700">
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -87,8 +87,8 @@ const Footer = () => {
           </div>
 
           {/* Popular Courses */}
-          <div>
-            <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700 inline-block">
+          <div className="lg:pl-4">
+            <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700">
               Popular Courses
             </h3>
             <ul className="space-y-3">
@@ -115,13 +115,13 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div>
-            <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700 inline-block">
+          <div className="lg:pl-4">
+            <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700">
               Contact Us
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start">
-                <div className="bg-cyan-600 p-2 rounded-full mr-3">
+                <div className="bg-cyan-600 p-2 rounded-full mr-3 mt-1">
                   <FaMapMarkerAlt className="text-white text-sm" />
                 </div>
                 <div>
@@ -134,7 +134,7 @@ const Footer = () => {
                 </div>
               </li>
               <li className="flex items-start">
-                <div className="bg-cyan-600 p-2 rounded-full mr-3">
+                <div className="bg-cyan-600 p-2 rounded-full mr-3 mt-1">
                   <FaPhoneAlt className="text-white text-sm" />
                 </div>
                 <div>
@@ -147,7 +147,7 @@ const Footer = () => {
                 </div>
               </li>
               <li className="flex items-start">
-                <div className="bg-cyan-600 p-2 rounded-full mr-3">
+                <div className="bg-cyan-600 p-2 rounded-full mr-3 mt-1">
                   <FaEnvelope className="text-white text-sm" />
                 </div>
                 <div>
@@ -160,7 +160,7 @@ const Footer = () => {
                 </div>
               </li>
               <li className="flex items-start">
-                <div className="bg-cyan-600 p-2 rounded-full mr-3">
+                <div className="bg-cyan-600 p-2 rounded-full mr-3 mt-1">
                   <FaClock className="text-white text-sm" />
                 </div>
                 <div>

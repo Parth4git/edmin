@@ -319,9 +319,13 @@ const ContactUs = () => {
             </h3>
             <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.801028644675!2d-122.4199069243706!3d37.7749294718606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
-                width="100%"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1786.7729600315995!2d80.30574003876434!3d26.40585394423829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s249%2C%20KHADEPUR%20CHAURAHA%2C%20Yogendra%20Vihar%2C%20Naubasta%2C%20Kanpur%2C%20Uttar%20Pradesh%20208021!5e0!3m2!1sen!2sin!4v1747291069697!5m2!1sen!2sin"
+                width="600"
                 height="450"
+                // loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                // width="100%"
+
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"

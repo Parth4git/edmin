@@ -35,7 +35,7 @@ const TestimonialCarousel = () => {
       course: "CCC",
       content:
         "Built 5 complete apps during the course which became my portfolio. The interview preparation sessions helped me crack 3 job offers before course completion!",
-      avatar: "https://randomuser.me/api/portraits/women/68.jpg",
+      avatar: "https://randomuser.me/api/portraits/women/84.jpg",
       batch: "2024 Batch",
     },
   ];
@@ -73,7 +73,7 @@ const TestimonialCarousel = () => {
     <section className="py-16 bg-gray-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white sm:text-4xl">
+          <h2 className="text-3xl font-semibold text-white sm:text-4xl">
             What Our Students Say
           </h2>
           <p className="mt-3 max-w-3xl mx-auto text-xl text-cyan-400 font-serif">
@@ -99,18 +99,18 @@ const TestimonialCarousel = () => {
               >
                 <div className="flex flex-col md:flex-row items-center">
                   <img
-                    className="w-24 h-24 rounded-full object-cover border-4 border-blue-200"
+                    className="w-34 h-34 rounded-full object-cover border-4 border-cyan-300"
                     src={testimonial.avatar}
                     alt={testimonial.name}
                   />
                   <div className="mt-6 md:mt-0 md:ml-10 text-center md:text-left">
-                    <h3 className="text-xl font-semibold text-gray-800">
+                    <h3 className="text-xl font-semibold text-gray-800 font-serif">
                       {testimonial.name}
                     </h3>
-                    <p className="text-blue-600 font-medium">
+                    <p className="text-cyan-400 font-medium text-lg ">
                       {testimonial.course}
                     </p>
-                    <p className="text-sm text-gray-500 mb-4">
+                    <p className="text-md text-gray-500 mb-4">
                       {testimonial.batch}
                     </p>
                     <blockquote className="text-gray-700 italic max-w-4xl">
@@ -129,7 +129,7 @@ const TestimonialCarousel = () => {
             aria-label="Previous testimonial"
           >
             <svg
-              className="w-6 h-6 text-blue-600"
+              className="w-6 h-6 text-cyan-400"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -148,7 +148,7 @@ const TestimonialCarousel = () => {
             aria-label="Next testimonial"
           >
             <svg
-              className="w-6 h-6 text-blue-600"
+              className="w-6 h-6 text-cyan-400"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -169,7 +169,7 @@ const TestimonialCarousel = () => {
                 key={index}
                 onClick={() => goToSlide(index)}
                 className={`w-3 h-3 rounded-full ${
-                  currentIndex === index ? "bg-blue-600" : "bg-gray-300"
+                  currentIndex === index ? "bg-cyan-400" : "bg-gray-300"
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}
               />

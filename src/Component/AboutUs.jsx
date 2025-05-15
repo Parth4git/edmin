@@ -8,15 +8,16 @@ const AboutUs = () => {
         {/* Image Section */}
         <div className="w-full md:w-1/2">
           <img
-            src="https://img.freepik.com/premium-vector/realistic-unboxing-illustration_23-2150293270.jpg"
+            src="/edumin_about.png"
             alt="About Us"
-            className="rounded-2xl shadow-lg w-full object-cover"
+            className="rounded-2xl w-full object-cover bg-white"
+            style={{ filter: "brightness(1.1) contrast(110%)" }} // Adjust brightness here
           />
         </div>
 
         {/* Content Section */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-3xl font-bold mb-4 md:text-5xl ">About Us</h2>
+          <h2 className="text-3xl font-semibold mb-4 md:text-5xl ">About Us</h2>
           <p className="text-gray-700 mb-4 leading-relaxed text-lg font-serif">
             Welcome to Edumin, a pioneer in digital transformation for
             educational institutes! As Brain Server Computer & Vocational
@@ -31,7 +32,7 @@ const AboutUs = () => {
             We have done various types of government computer training programs.
             We have trained thousands of students in the last 10 years.
           </p>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-700 list-none list-inside text-lg font-medium">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-700 list-none list-inside text-lg font-serif">
             <div className="flex items-center gap-1">
               {" "}
               <FaArrowRight className="text-cyan-500" />{" "}
@@ -73,7 +74,7 @@ const AboutUs = () => {
             </div>
           </ul>
           <div className="mt-6">
-            <button className="bg-yellow-300 hover:bg-yellow-400 text-black font-semibold py-2 px-6 rounded shadow">
+            <button className="bg-cyan-400 hover:bg-cyan-500 text-black font-semibold py-3 px-6 rounded shadow border-1 border-gray-900">
               Learn More
             </button>
           </div>
