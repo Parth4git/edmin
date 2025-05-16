@@ -76,11 +76,11 @@ const AchieversSection = () => {
               {doubleAchievers.map((student, index) => (
                 <div
                   key={`${student.id}-${index}`}
-                  className="inline-flex flex-col items-center mx-6 w-48 flex-shrink-0"
+                  className="inline-flex flex-col items-center mx-2 w-48 flex-shrink-0"
                 >
                   <div className="relative group">
                     <img
-                      className="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
+                      className="w-32 h-32 rounded-full object-cover border-4 border-cyan-200 shadow-lg"
                       src={student.image}
                       alt={student.name}
                     />

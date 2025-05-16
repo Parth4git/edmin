@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
+import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa6";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,6 +13,95 @@ const Header = () => {
 
   return (
     <header className="w-full shadow-md bg-white z-50">
+      <div className="w-full bg-gray-300 text-sm text-gray-800 py-3 px-4">
+        {/* Mobile: Stacked layout */}
+        <div className="md:hidden flex flex-col gap-3">
+          {/* Contact Info - Stacked */}
+          <div className="flex flex-col gap-2">
+            <span className="flex items-center gap-2">
+              <FaPhoneAlt className="text-xs" />
+              <a href="tel:8840804166" className="hover:text-blue-600">
+                8840804166
+              </a>
+            </span>
+            <span className="flex items-center gap-2">
+              <FaPhoneAlt className="text-xs" />
+              <a href="tel:7525812233" className="hover:text-blue-600">
+                7525812233
+              </a>
+            </span>
+            <span className="flex items-center gap-2">
+              <FaEnvelope className="text-xs" />
+              <a
+                href="mailto:edumin708080@gmail.com"
+                className="hover:text-blue-600"
+              >
+                edumin708080@gmail.com
+              </a>
+            </span>
+          </div>
+
+          {/* Links - Stacked */}
+          <div className="flex flex-col gap-2 pt-2 border-t border-gray-400">
+            <a href="#login" className="hover:text-blue-600">
+              Login
+            </a>
+            <a href="#franchise" className="hover:text-blue-600">
+              Franchise Registration
+            </a>
+            <a href="#download" className="hover:text-blue-600">
+              Download
+            </a>
+            <a href="#atc" className="hover:text-blue-600">
+              ATC Verification
+            </a>
+          </div>
+        </div>
+
+        {/* Desktop: Horizontal layout */}
+        <div className="hidden md:flex items-center justify-between gap-4">
+          {/* Left: Contact Info */}
+          <div className="flex flex-wrap items-center gap-6">
+            <span className="flex items-center gap-1">
+              <FaPhoneAlt className="text-xs" />
+              <a href="tel:8840804166" className="hover:text-blue-600">
+                8840804166
+              </a>
+            </span>
+            <span className="flex items-center gap-1">
+              <FaPhoneAlt className="text-xs" />
+              <a href="tel:7525812233" className="hover:text-blue-600">
+                7525812233
+              </a>
+            </span>
+            <span className="flex items-center gap-1">
+              <FaEnvelope className="text-xs" />
+              <a
+                href="mailto:edumin708080@gmail.com"
+                className="hover:text-blue-600"
+              >
+                edumin708080@gmail.com
+              </a>
+            </span>
+          </div>
+
+          {/* Right: Links */}
+          <div className="flex flex-wrap items-center gap-6">
+            <a href="#login" className="hover:text-blue-600">
+              Login
+            </a>
+            <a href="#franchise" className="hover:text-blue-600">
+              Franchise Registration
+            </a>
+            <a href="#download" className="hover:text-blue-600">
+              Download
+            </a>
+            <a href="#atc" className="hover:text-blue-600">
+              ATC Verification
+            </a>
+          </div>
+        </div>
+      </div>
       {/* Desktop Header */}
       <div className="hidden md:flex items-center justify-between px-8 py-2">
         {/* Social Icons */}
@@ -54,7 +145,7 @@ const Header = () => {
 
         {/* Logo */}
         <div className="mx-0">
-          <img src="/edumin_logo.png" alt="Logo" className="w-40 h-16" />
+          <img src="/edumin_logo.png" alt="Logo" className="w-40 h-20" />
         </div>
 
         {/* Right Nav */}

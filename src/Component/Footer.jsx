@@ -13,11 +13,11 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-200 pt-16 pb-8 px-4">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* About Section */}
-          <div className="md:mt-1 space-y-6">
+          <div className="md:mt-1 space-y-4">
             <div className="flex items-center h-12">
               <img
                 src="/edumin_logo.png"
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="lg:pl-18">
+          <div className="lg:pl-12">
             <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700">
               Quick Links
             </h3>
@@ -87,7 +87,7 @@ const Footer = () => {
           </div>
 
           {/* Popular Courses */}
-          <div className="lg:pl-1">
+          <div className="lg:max-w-">
             <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700">
               Popular Courses
             </h3>

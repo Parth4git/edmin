@@ -1,5 +1,7 @@
 import { BiStrikethrough } from "react-icons/bi";
 import { coursesCard } from "../assets/dummydata";
+import { FaA } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
 
 const Course = () => {
   return (
@@ -41,10 +43,11 @@ const Course = () => {
             </div>
           ))}
         </div>
-        <div className="text-center mt-8">
-          <button className="px-6 py-3 bg-cyan-400 text-black font-medium rounded-lg hover:bg-cyan-500 hover:scale-105 transition-colors duration-300 border-1 border-gray-900 hover:border-cyan-500 shadow-sm shadow-cyan-100">
+        <div className="text-center mt-12 flex gap-2 justify-center items-center">
+          <a href="#" className=" text-cyan-400 font-medium text-xl">
             View All Courses
-          </button>
+          </a>
+          <FaArrowRight className="text-cyan-400 text-2xl inline-block ml-2" />
         </div>
       </section>
     </>

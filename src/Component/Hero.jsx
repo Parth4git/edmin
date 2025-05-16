@@ -54,7 +54,7 @@ const Hero = () => {
             {subtext}
           </p>
           <div className="space-x-3">
-            <button className="bg-cyan-400 hover:bg-cyan-500 text-black font-semibold py-2 px-6 rounded shadow">
+            <button className="bg-cyan-400 hover:bg-cyan-500 text-black font-semibold py-2 px-6 rounded shadow hover:text-white transition duration-300">
               Get Started
             </button>
             <button className="bg-transparent border border-white hover:bg-white hover:text-black text-white font-semibold py-2 px-6 rounded">
@@ -62,6 +62,16 @@ const Hero = () => {
             </button>
           </div>
         </div>
+      </div>
+
+      {/*marquee*/}
+      <div className="absolute bottom-0 left-0 w-full bg-gray-800 text-white py-2">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+          Welcome to Edumin! We provide the best services to our students. We
+          offer a variety of courses. Choose the one that suits you best. Our
+          team is always here to help you. We provide 24/7 support. Join us
+          today!
+        </marquee>
       </div>
     </section>
   );
